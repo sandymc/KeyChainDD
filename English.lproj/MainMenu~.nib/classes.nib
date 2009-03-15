@@ -1,0 +1,45 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {buttonPress = id; }; 
+            CLASS = DragButton; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSButton; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {openPreferencesWindow = id; }; 
+            CLASS = KeyChainDDController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {mainMenu = NSMenu; winController = MainWinController; window = NSWindow; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {lockButtonPress = id; passwordPress = id; useridButtonPress = id; }; 
+            CLASS = MainWinController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                helpField = NSTextField; 
+                lockButton = NSButton; 
+                myOutlineView = NSOutlineView; 
+                myPanel = NSPanel; 
+                passwordDragButton = DragButton; 
+                userIdDragButton = DragButton; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = MyDataSource; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {cancelButtonPress = id; okButtonPress = id; }; 
+            CLASS = ServicePanelController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                mainWindow = MainWinController; 
+                myPanel = NSPanel; 
+                serviceOutlineView = NSOutlineView; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,5 @@
+# excludes for xCode and VC++
+build/
+Unused/
+Site/
+ScreenShots/

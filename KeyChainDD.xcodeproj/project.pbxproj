@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2607D5B00D0C5F3A003BC7F5 /* MyDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 2607D5AF0D0C5F3A003BC7F5 /* MyDataSource.m */; };
+		2607D5B80D0C5F75003BC7F5 /* KeyChainManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2607D5B70D0C5F75003BC7F5 /* KeyChainManger.m */; };
+		2607D5BE0D0C5FC3003BC7F5 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 2607D5BB0D0C5FC3003BC7F5 /* Node.m */; };
+		2621E45E0EE55FD700B7A228 /* Time Outs.png in Resources */ = {isa = PBXBuildFile; fileRef = 2621E45D0EE55FD700B7A228 /* Time Outs.png */; };
+		2641A4FC0D1947B600B7CB8E /* MainWinController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2641A4FB0D1947B600B7CB8E /* MainWinController.m */; };
+		265E327A0D0ECCFE00D23501 /* KeyChainItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 265E32790D0ECCFE00D23501 /* KeyChainItem.m */; };
+		2666F7040D2974E0000540DF /* Small Lock_Disabled State.png in Resources */ = {isa = PBXBuildFile; fileRef = 2666F7030D2974E0000540DF /* Small Lock_Disabled State.png */; };
+		2666F7170D297623000540DF /* item_blocked.tif in Resources */ = {isa = PBXBuildFile; fileRef = 2666F7160D297623000540DF /* item_blocked.tif */; };
+		2666F71D0D297775000540DF /* item_ok.png in Resources */ = {isa = PBXBuildFile; fileRef = 2666F71C0D297775000540DF /* item_ok.png */; };
+		26805C8E0E7BD68B001E46B0 /* tnefDDoutlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26805C8D0E7BD68B001E46B0 /* tnefDDoutlineView.m */; };
+		2681A5280E7D20F70058DF97 /* keychainDDInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = 2681A5260E7D20F70058DF97 /* keychainDDInspector.m */; };
+		2682FDED0E74E9E600286069 /* General.png in Resources */ = {isa = PBXBuildFile; fileRef = 2682FDEC0E74E9E600286069 /* General.png */; };
+		268E786B0E743CA50067176C /* DBPrefsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 268E78680E743CA50067176C /* DBPrefsWindowController.m */; };
+		268E786C0E743CA50067176C /* PrefsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 268E786A0E743CA50067176C /* PrefsWindowController.m */; };
+		268E78770E743F8B0067176C /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 268E78760E743F8B0067176C /* Preferences.xib */; };
+		269049AD0D13DF170008611E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 269049AC0D13DF170008611E /* Security.framework */; };
+		26A21FB50EEACCF100FA2B10 /* ImageAndTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A21FB40EEACCF100FA2B10 /* ImageAndTextCell.m */; };
+		26AA261F0F680C4B008191A9 /* KeysClosed48.png in Resources */ = {isa = PBXBuildFile; fileRef = 26AA261C0F680C4B008191A9 /* KeysClosed48.png */; };
+		26AA26200F680C4B008191A9 /* KeysOpen48.png in Resources */ = {isa = PBXBuildFile; fileRef = 26AA261D0F680C4B008191A9 /* KeysOpen48.png */; };
+		26AA26210F680C4B008191A9 /* KeyWorking48.png in Resources */ = {isa = PBXBuildFile; fileRef = 26AA261E0F680C4B008191A9 /* KeyWorking48.png */; };
+		26AA269F0F683607008191A9 /* Help in Resources */ = {isa = PBXBuildFile; fileRef = 26AA265B0F683607008191A9 /* Help */; };
+		26ACAF7E0F0F771D00E22196 /* ServicePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26ACAF7D0F0F771D00E22196 /* ServicePanel.m */; };
+		26B2A2F90D0C3BF80029B519 /* KeyChainDDController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B2A2F80D0C3BF80029B519 /* KeyChainDDController.m */; };
+		26B5F9240F0CEC6400D98C7F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 26B5F9220F0CEC6400D98C7F /* Credits.rtf */; };
+		26B868350E86D22E00924247 /* Inspector.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26B868340E86D22E00924247 /* Inspector.xib */; };
+		26B9C1540F0B79BA00CCB7CF /* SplashScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26B9C1530F0B79BA00CCB7CF /* SplashScreen.xib */; };
+		26B9C15C0F0B7AB900CCB7CF /* SplashScreenPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B9C15B0F0B7AB900CCB7CF /* SplashScreenPanel.m */; };
+		26C70B8C0D0EACD900295400 /* KeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C70B8B0D0EACD900295400 /* KeyChain.m */; };
+		26C85A3B0D11EC1800B53569 /* NSKeychainApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C85A3A0D11EC1800B53569 /* NSKeychainApplication.m */; };
+		26D5F0EC0D2296DA00EFC8D5 /* DragButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D5F0EB0D2296DA00EFC8D5 /* DragButton.m */; };
+		26D636810D2621A400A6B2FA /* Small Lock_Unlocked State.tif in Resources */ = {isa = PBXBuildFile; fileRef = 26D6367F0D2621A400A6B2FA /* Small Lock_Unlocked State.tif */; };
+		26D636820D2621A400A6B2FA /* Small Lock_Locked State.tif in Resources */ = {isa = PBXBuildFile; fileRef = 26D636800D2621A400A6B2FA /* Small Lock_Locked State.tif */; };
+		26D6373E0D2675A300A6B2FA /* KeychainDD.icns in Resources */ = {isa = PBXBuildFile; fileRef = 26D6373D0D2675A300A6B2FA /* KeychainDD.icns */; };
+		26D637840D26C4F900A6B2FA /* ScaledIconFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D637830D26C4F900A6B2FA /* ScaledIconFactory.m */; };
+		26E262C10F03CD5D00C6664E /* MacOSStatusHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E262C00F03CD5D00C6664E /* MacOSStatusHelper.m */; };
+		26E7DB180E8B658A0061096D /* miPanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E7DB170E8B658A0061096D /* miPanelController.m */; };
+		26E884920D11BE2F00174E54 /* ServicePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E884910D11BE2F00174E54 /* ServicePanelController.m */; };
+		26F41AAB0EFE8ED2004AA660 /* NewKeychain.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26F41AAA0EFE8ED2004AA660 /* NewKeychain.xib */; };
+		26F41AAF0EFE8F6B004AA660 /* NewKeychainInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F41AAD0EFE8F6B004AA660 /* NewKeychainInspector.m */; };
+		26F41AC90EFE94AA004AA660 /* item_blocked2.png in Resources */ = {isa = PBXBuildFile; fileRef = 26F41AC80EFE94AA004AA660 /* item_blocked2.png */; };
+		26F41ACB0EFE94FC004AA660 /* item_ok2.png in Resources */ = {isa = PBXBuildFile; fileRef = 26F41ACA0EFE94FC004AA660 /* item_ok2.png */; };
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		2607D5AE0D0C5F3A003BC7F5 /* MyDataSource.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MyDataSource.h; path = src/MyDataSource.h; sourceTree = "<group>"; };
+		2607D5AF0D0C5F3A003BC7F5 /* MyDataSource.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = MyDataSource.m; path = src/MyDataSource.m; sourceTree = "<group>"; };
+		2607D5B60D0C5F75003BC7F5 /* KeyChainManager.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = KeyChainManager.h; path = src/KeyChainManager.h; sourceTree = "<group>"; };
+		2607D5B70D0C5F75003BC7F5 /* KeyChainManger.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = KeyChainManger.m; path = src/KeyChainManger.m; sourceTree = "<group>"; };
+		2607D5BA0D0C5FC3003BC7F5 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Node.h; path = src/Node.h; sourceTree = "<group>"; };
+		2607D5BB0D0C5FC3003BC7F5 /* Node.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = Node.m; path = src/Node.m; sourceTree = "<group>"; };
+		2621E45D0EE55FD700B7A228 /* Time Outs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Time Outs.png"; path = "Resources/Time Outs.png"; sourceTree = "<group>"; };
+		2641A4FA0D1947B600B7CB8E /* MainWinController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainWinController.h; path = src/MainWinController.h; sourceTree = "<group>"; };
+		2641A4FB0D1947B600B7CB8E /* MainWinController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainWinController.m; path = src/MainWinController.m; sourceTree = "<group>"; };
+		265E32780D0ECCFE00D23501 /* KeyChainItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeyChainItem.h; path = src/KeyChainItem.h; sourceTree = "<group>"; };
+		265E32790D0ECCFE00D23501 /* KeyChainItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KeyChainItem.m; path = src/KeyChainItem.m; sourceTree = "<group>"; };
+		2666F7030D2974E0000540DF /* Small Lock_Disabled State.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Small Lock_Disabled State.png"; path = "Resources/Small Lock_Disabled State.png"; sourceTree = "<group>"; };
+		2666F7160D297623000540DF /* item_blocked.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = item_blocked.tif; path = Resources/item_blocked.tif; sourceTree = "<group>"; };
+		2666F71C0D297775000540DF /* item_ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = item_ok.png; path = Resources/item_ok.png; sourceTree = "<group>"; };
+		26805C8C0E7BD68B001E46B0 /* tnefDDoutlineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tnefDDoutlineView.h; path = src/tnefDDoutlineView.h; sourceTree = "<group>"; };
+		26805C8D0E7BD68B001E46B0 /* tnefDDoutlineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = tnefDDoutlineView.m; path = src/tnefDDoutlineView.m; sourceTree = "<group>"; };
+		2681A5260E7D20F70058DF97 /* keychainDDInspector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = keychainDDInspector.m; path = src/keychainDDInspector.m; sourceTree = "<group>"; };
+		2681A5270E7D20F70058DF97 /* keychainDDInspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = keychainDDInspector.h; path = src/keychainDDInspector.h; sourceTree = "<group>"; };
+		2682FDEC0E74E9E600286069 /* General.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = General.png; path = Resources/General.png; sourceTree = "<group>"; };
+		268E78670E743CA50067176C /* DBPrefsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBPrefsWindowController.h; path = src/DBPrefsWindowController.h; sourceTree = "<group>"; };
+		268E78680E743CA50067176C /* DBPrefsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBPrefsWindowController.m; path = src/DBPrefsWindowController.m; sourceTree = "<group>"; };
+		268E78690E743CA50067176C /* PrefsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefsWindowController.h; path = src/PrefsWindowController.h; sourceTree = "<group>"; };
+		268E786A0E743CA50067176C /* PrefsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PrefsWindowController.m; path = src/PrefsWindowController.m; sourceTree = "<group>"; };
+		268E78760E743F8B0067176C /* Preferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Preferences.xib; path = Resources/Preferences.xib; sourceTree = "<group>"; };
+		269049AC0D13DF170008611E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
+		26A21FB30EEACCF100FA2B10 /* ImageAndTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageAndTextCell.h; path = src/ImageAndTextCell.h; sourceTree = "<group>"; };
+		26A21FB40EEACCF100FA2B10 /* ImageAndTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageAndTextCell.m; path = src/ImageAndTextCell.m; sourceTree = "<group>"; };
+		26AA261C0F680C4B008191A9 /* KeysClosed48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = KeysClosed48.png; path = Resources/KeysClosed48.png; sourceTree = "<group>"; };
+		26AA261D0F680C4B008191A9 /* KeysOpen48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = KeysOpen48.png; path = Resources/KeysOpen48.png; sourceTree = "<group>"; };
+		26AA261E0F680C4B008191A9 /* KeyWorking48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = KeyWorking48.png; path = Resources/KeyWorking48.png; sourceTree = "<group>"; };
+		26AA265B0F683607008191A9 /* Help */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Help; sourceTree = "<group>"; };
+		26ACAF7C0F0F771D00E22196 /* ServicePanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServicePanel.h; path = src/ServicePanel.h; sourceTree = "<group>"; };
+		26ACAF7D0F0F771D00E22196 /* ServicePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ServicePanel.m; path = src/ServicePanel.m; sourceTree = "<group>"; };
+		26B2A2F70D0C3BF80029B519 /* KeyChainDDController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = KeyChainDDController.h; path = src/KeyChainDDController.h; sourceTree = "<group>"; };
+		26B2A2F80D0C3BF80029B519 /* KeyChainDDController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = KeyChainDDController.m; path = src/KeyChainDDController.m; sourceTree = "<group>"; };
+		26B5F9230F0CEC6400D98C7F /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
+		26B868340E86D22E00924247 /* Inspector.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Inspector.xib; path = Resources/Inspector.xib; sourceTree = "<group>"; };
+		26B9C1530F0B79BA00CCB7CF /* SplashScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SplashScreen.xib; path = Resources/SplashScreen.xib; sourceTree = "<group>"; };
+		26B9C15A0F0B7AB900CCB7CF /* SplashScreenPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SplashScreenPanel.h; path = src/SplashScreenPanel.h; sourceTree = "<group>"; };
+		26B9C15B0F0B7AB900CCB7CF /* SplashScreenPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SplashScreenPanel.m; path = src/SplashScreenPanel.m; sourceTree = "<group>"; };
+		26C70B8A0D0EACD900295400 /* KeyChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeyChain.h; path = src/KeyChain.h; sourceTree = "<group>"; };
+		26C70B8B0D0EACD900295400 /* KeyChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KeyChain.m; path = src/KeyChain.m; sourceTree = "<group>"; };
+		26C85A390D11EC1800B53569 /* NSKeychainApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSKeychainApplication.h; path = src/NSKeychainApplication.h; sourceTree = "<group>"; };
+		26C85A3A0D11EC1800B53569 /* NSKeychainApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSKeychainApplication.m; path = src/NSKeychainApplication.m; sourceTree = "<group>"; };
+		26D5F0EA0D2296DA00EFC8D5 /* DragButton.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = DragButton.h; path = src/DragButton.h; sourceTree = "<group>"; };
+		26D5F0EB0D2296DA00EFC8D5 /* DragButton.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = DragButton.m; path = src/DragButton.m; sourceTree = "<group>"; };
+		26D6367F0D2621A400A6B2FA /* Small Lock_Unlocked State.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Small Lock_Unlocked State.tif"; path = "Resources/Small Lock_Unlocked State.tif"; sourceTree = "<group>"; };
+		26D636800D2621A400A6B2FA /* Small Lock_Locked State.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Small Lock_Locked State.tif"; path = "Resources/Small Lock_Locked State.tif"; sourceTree = "<group>"; };
+		26D6373D0D2675A300A6B2FA /* KeychainDD.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = KeychainDD.icns; path = Resources/KeychainDD.icns; sourceTree = "<group>"; };
+		26D637820D26C4F900A6B2FA /* ScaledIconFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScaledIconFactory.h; path = src/ScaledIconFactory.h; sourceTree = "<group>"; };
+		26D637830D26C4F900A6B2FA /* ScaledIconFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScaledIconFactory.m; path = src/ScaledIconFactory.m; sourceTree = "<group>"; };
+		26E262BF0F03CD5D00C6664E /* MacOSStatusHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacOSStatusHelper.h; path = src/MacOSStatusHelper.h; sourceTree = "<group>"; };
+		26E262C00F03CD5D00C6664E /* MacOSStatusHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacOSStatusHelper.m; path = src/MacOSStatusHelper.m; sourceTree = "<group>"; };
+		26E6858D0F6AB96100EFDA5B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26E7DB160E8B658A0061096D /* miPanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = miPanelController.h; path = src/miPanelController.h; sourceTree = "<group>"; };
+		26E7DB170E8B658A0061096D /* miPanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = miPanelController.m; path = src/miPanelController.m; sourceTree = "<group>"; };
+		26E884900D11BE2F00174E54 /* ServicePanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServicePanelController.h; path = src/ServicePanelController.h; sourceTree = "<group>"; };
+		26E884910D11BE2F00174E54 /* ServicePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ServicePanelController.m; path = src/ServicePanelController.m; sourceTree = "<group>"; };
+		26F41AAA0EFE8ED2004AA660 /* NewKeychain.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = NewKeychain.xib; path = Resources/NewKeychain.xib; sourceTree = "<group>"; };
+		26F41AAD0EFE8F6B004AA660 /* NewKeychainInspector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewKeychainInspector.m; path = src/NewKeychainInspector.m; sourceTree = "<group>"; };
+		26F41AAE0EFE8F6B004AA660 /* NewKeychainInspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewKeychainInspector.h; path = src/NewKeychainInspector.h; sourceTree = "<group>"; };
+		26F41AC80EFE94AA004AA660 /* item_blocked2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = item_blocked2.png; path = Resources/item_blocked2.png; sourceTree = "<group>"; };
+		26F41ACA0EFE94FC004AA660 /* item_ok2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = item_ok2.png; path = Resources/item_ok2.png; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = src/main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* KeyChainDD_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeyChainDD_Prefix.pch; path = src/KeyChainDD_Prefix.pch; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* KeyChainDD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyChainDD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				269049AD0D13DF170008611E /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				26F41AAD0EFE8F6B004AA660 /* NewKeychainInspector.m */,
+				26F41AAE0EFE8F6B004AA660 /* NewKeychainInspector.h */,
+				26A21FB30EEACCF100FA2B10 /* ImageAndTextCell.h */,
+				26A21FB40EEACCF100FA2B10 /* ImageAndTextCell.m */,
+				26D637820D26C4F900A6B2FA /* ScaledIconFactory.h */,
+				26D637830D26C4F900A6B2FA /* ScaledIconFactory.m */,
+				2681A5260E7D20F70058DF97 /* keychainDDInspector.m */,
+				2681A5270E7D20F70058DF97 /* keychainDDInspector.h */,
+				26805C8C0E7BD68B001E46B0 /* tnefDDoutlineView.h */,
+				26805C8D0E7BD68B001E46B0 /* tnefDDoutlineView.m */,
+				268E78670E743CA50067176C /* DBPrefsWindowController.h */,
+				268E78680E743CA50067176C /* DBPrefsWindowController.m */,
+				268E78690E743CA50067176C /* PrefsWindowController.h */,
+				268E786A0E743CA50067176C /* PrefsWindowController.m */,
+				2641A4FA0D1947B600B7CB8E /* MainWinController.h */,
+				2641A4FB0D1947B600B7CB8E /* MainWinController.m */,
+				26C85A3A0D11EC1800B53569 /* NSKeychainApplication.m */,
+				26C85A390D11EC1800B53569 /* NSKeychainApplication.h */,
+				265E32780D0ECCFE00D23501 /* KeyChainItem.h */,
+				265E32790D0ECCFE00D23501 /* KeyChainItem.m */,
+				26E884900D11BE2F00174E54 /* ServicePanelController.h */,
+				26E884910D11BE2F00174E54 /* ServicePanelController.m */,
+				26C70B8A0D0EACD900295400 /* KeyChain.h */,
+				26C70B8B0D0EACD900295400 /* KeyChain.m */,
+				26B2A2F70D0C3BF80029B519 /* KeyChainDDController.h */,
+				26B2A2F80D0C3BF80029B519 /* KeyChainDDController.m */,
+				2607D5B60D0C5F75003BC7F5 /* KeyChainManager.h */,
+				2607D5B70D0C5F75003BC7F5 /* KeyChainManger.m */,
+				2607D5BA0D0C5FC3003BC7F5 /* Node.h */,
+				2607D5BB0D0C5FC3003BC7F5 /* Node.m */,
+				2607D5AE0D0C5F3A003BC7F5 /* MyDataSource.h */,
+				2607D5AF0D0C5F3A003BC7F5 /* MyDataSource.m */,
+				26D5F0EA0D2296DA00EFC8D5 /* DragButton.h */,
+				26D5F0EB0D2296DA00EFC8D5 /* DragButton.m */,
+				26E7DB160E8B658A0061096D /* miPanelController.h */,
+				26E7DB170E8B658A0061096D /* miPanelController.m */,
+				26E262BF0F03CD5D00C6664E /* MacOSStatusHelper.h */,
+				26E262C00F03CD5D00C6664E /* MacOSStatusHelper.m */,
+				26B9C15A0F0B7AB900CCB7CF /* SplashScreenPanel.h */,
+				26B9C15B0F0B7AB900CCB7CF /* SplashScreenPanel.m */,
+				26ACAF7C0F0F771D00E22196 /* ServicePanel.h */,
+				26ACAF7D0F0F771D00E22196 /* ServicePanel.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				269049AC0D13DF170008611E /* Security.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* KeyChainDD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* KeyChainDD */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = KeyChainDD;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* KeyChainDD_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				26E6858D0F6AB96100EFDA5B /* Info.plist */,
+				26AA265B0F683607008191A9 /* Help */,
+				26AA261C0F680C4B008191A9 /* KeysClosed48.png */,
+				26AA261D0F680C4B008191A9 /* KeysOpen48.png */,
+				26AA261E0F680C4B008191A9 /* KeyWorking48.png */,
+				2666F71C0D297775000540DF /* item_ok.png */,
+				2666F7160D297623000540DF /* item_blocked.tif */,
+				26D6367F0D2621A400A6B2FA /* Small Lock_Unlocked State.tif */,
+				26D636800D2621A400A6B2FA /* Small Lock_Locked State.tif */,
+				26B5F9220F0CEC6400D98C7F /* Credits.rtf */,
+				26F41ACA0EFE94FC004AA660 /* item_ok2.png */,
+				26F41AC80EFE94AA004AA660 /* item_blocked2.png */,
+				26F41AAA0EFE8ED2004AA660 /* NewKeychain.xib */,
+				2621E45D0EE55FD700B7A228 /* Time Outs.png */,
+				2666F7030D2974E0000540DF /* Small Lock_Disabled State.png */,
+				26B868340E86D22E00924247 /* Inspector.xib */,
+				2682FDEC0E74E9E600286069 /* General.png */,
+				268E78760E743F8B0067176C /* Preferences.xib */,
+				26D6373D0D2675A300A6B2FA /* KeychainDD.icns */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				26B9C1530F0B79BA00CCB7CF /* SplashScreen.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* KeyChainDD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "KeyChainDD" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyChainDD;
+			productInstallPath = "$(HOME)/Applications";
+			productName = KeyChainDD;
+			productReference = 8D1107320486CEB800E47090 /* KeyChainDD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "KeyChainDD" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* KeyChainDD */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* KeyChainDD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				26D636810D2621A400A6B2FA /* Small Lock_Unlocked State.tif in Resources */,
+				26D636820D2621A400A6B2FA /* Small Lock_Locked State.tif in Resources */,
+				26D6373E0D2675A300A6B2FA /* KeychainDD.icns in Resources */,
+				2666F7040D2974E0000540DF /* Small Lock_Disabled State.png in Resources */,
+				2666F7170D297623000540DF /* item_blocked.tif in Resources */,
+				2666F71D0D297775000540DF /* item_ok.png in Resources */,
+				268E78770E743F8B0067176C /* Preferences.xib in Resources */,
+				2682FDED0E74E9E600286069 /* General.png in Resources */,
+				26B868350E86D22E00924247 /* Inspector.xib in Resources */,
+				2621E45E0EE55FD700B7A228 /* Time Outs.png in Resources */,
+				26F41AAB0EFE8ED2004AA660 /* NewKeychain.xib in Resources */,
+				26F41AC90EFE94AA004AA660 /* item_blocked2.png in Resources */,
+				26F41ACB0EFE94FC004AA660 /* item_ok2.png in Resources */,
+				26B9C1540F0B79BA00CCB7CF /* SplashScreen.xib in Resources */,
+				26B5F9240F0CEC6400D98C7F /* Credits.rtf in Resources */,
+				26AA261F0F680C4B008191A9 /* KeysClosed48.png in Resources */,
+				26AA26200F680C4B008191A9 /* KeysOpen48.png in Resources */,
+				26AA26210F680C4B008191A9 /* KeyWorking48.png in Resources */,
+				26AA269F0F683607008191A9 /* Help in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				26B2A2F90D0C3BF80029B519 /* KeyChainDDController.m in Sources */,
+				2607D5B00D0C5F3A003BC7F5 /* MyDataSource.m in Sources */,
+				2607D5B80D0C5F75003BC7F5 /* KeyChainManger.m in Sources */,
+				2607D5BE0D0C5FC3003BC7F5 /* Node.m in Sources */,
+				26C70B8C0D0EACD900295400 /* KeyChain.m in Sources */,
+				265E327A0D0ECCFE00D23501 /* KeyChainItem.m in Sources */,
+				26E884920D11BE2F00174E54 /* ServicePanelController.m in Sources */,
+				26C85A3B0D11EC1800B53569 /* NSKeychainApplication.m in Sources */,
+				2641A4FC0D1947B600B7CB8E /* MainWinController.m in Sources */,
+				26D5F0EC0D2296DA00EFC8D5 /* DragButton.m in Sources */,
+				26D637840D26C4F900A6B2FA /* ScaledIconFactory.m in Sources */,
+				268E786B0E743CA50067176C /* DBPrefsWindowController.m in Sources */,
+				268E786C0E743CA50067176C /* PrefsWindowController.m in Sources */,
+				26805C8E0E7BD68B001E46B0 /* tnefDDoutlineView.m in Sources */,
+				2681A5280E7D20F70058DF97 /* keychainDDInspector.m in Sources */,
+				26E7DB180E8B658A0061096D /* miPanelController.m in Sources */,
+				26A21FB50EEACCF100FA2B10 /* ImageAndTextCell.m in Sources */,
+				26F41AAF0EFE8F6B004AA660 /* NewKeychainInspector.m in Sources */,
+				26E262C10F03CD5D00C6664E /* MacOSStatusHelper.m in Sources */,
+				26B9C15C0F0B7AB900CCB7CF /* SplashScreenPanel.m in Sources */,
+				26ACAF7E0F0F771D00E22196 /* ServicePanel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		26B5F9220F0CEC6400D98C7F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26B5F9230F0CEC6400D98C7F /* English */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = KeyChainDD;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = KeyChainDD;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__debug=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "KeyChainDD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "KeyChainDD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
